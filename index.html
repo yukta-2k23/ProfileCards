@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card1,.card2,.card3{
+            box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.1);
+        }
+        .circle{
+            box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+        }
+        .card1 .circle{
+            background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: start;
+        }
+        .card2 .circle{
+            background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: start;
+        }
+        .card3 .circle{
+            background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: start;
+        }
+        .skillbtn,.view{
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="main h-screen w-screen px-14 py-16 flex items-center gap-20 bg-gray-200">
+        <div class="card1 h-full w-2/5 bg-white px-0 pt-2 flex flex-col items-center rounded-lg">
+            <i class="ri-more-2-fill pl-[100%] px-10"></i>
+            <div class="circle h-36 w-36 rounded-full"></div>
+            <h3 class="font-semibold text-xl mt-1 px-7">Wade wilson</h3>
+            <p class="font-semibold text-sm text-gray-600 mb-3 px-7">London,UK</p>
+            <div class="skills h-10 w-full flex items-center justify-around mb-3 px-7">
+                <div class="skillbtn px-4 py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UI</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UX</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">Photoshop</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] text-white bg-violet-800 border-slate-300 rounded-3xl ">+4</div>
+            </div>
+            <p class="text-center text-sm px-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nihil.</p>
+            <div class="view w-full border-t-[1px] border-t-gray-400 py-4 mt-10 text-center rounded-b-lg hover:bg-violet-800 hover:text-white">View profile</div>
+        </div>
+        <div class="card2 h-full w-2/5 bg-white px-0 pt-2 flex flex-col items-center rounded-lg">
+            <i class="ri-more-2-fill pl-[100%] px-10"></i>
+            <div class="circle h-36 w-36 rounded-full"></div>
+            <h3 class="font-semibold text-xl mt-1 px-7">Wade wilson</h3>
+            <p class="font-semibold text-sm text-gray-600 mb-3 px-7">London,UK</p>
+            <div class="skills h-10 w-full flex items-center justify-around mb-3 px-7">
+                <div class="skillbtn px-4 py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UI</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UX</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">Photoshop</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] text-white bg-violet-800 border-slate-300 rounded-3xl ">+4</div>
+            </div>
+            <p class="text-center text-sm px-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nihil.</p>
+            <div class="view w-full border-t-[1px] border-t-gray-400 py-4 mt-10 text-center rounded-b-lg hover:bg-violet-800 hover:text-white">View profile</div>
+        </div>
+        <div class="card3 h-full w-2/5 bg-white px-0 pt-2 flex flex-col items-center rounded-lg">
+            <i class="ri-more-2-fill pl-[100%] px-10"></i>
+            <div class="circle h-36 w-36 rounded-full"></div>
+            <h3 class="font-semibold text-xl mt-1 px-7">Wade wilson</h3>
+            <p class="font-semibold text-sm text-gray-600 mb-3 px-7">London,UK</p>
+            <div class="skills h-10 w-full flex items-center justify-around mb-3 px-7">
+                <div class="skillbtn px-4 py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UI</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">UX</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] bg-transparent border-slate-300 rounded-3xl  hover:bg-violet-800 hover:text-white">Photoshop</div>
+                <div class="skillbtn px-4  py-2 font-medium text-sm border-[1px] text-white bg-violet-800 border-slate-300 rounded-3xl ">+4</div>
+            </div>
+            <p class="text-center text-sm px-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nihil.</p>
+            <div class="view w-full border-t-[1px] border-t-gray-400 py-4 mt-10 text-center rounded-b-lg hover:bg-violet-800 hover:text-white">View profile</div>
+        </div>
+    </div>
+</body>
+</html>
